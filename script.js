@@ -429,12 +429,7 @@ console.log((makeUpperCase("HELLO")));
 
 
 // Make acronym
-function toAcronym(str){
-  let strArray = [];
-  strArray.push(str);
-  strArray.push(str.split(' ').map(el => el.charAt(0).toUpperCase()).join(''))
-  return strArray
-  
-};
+const toAcronym = inp => inp.split(' ').map(el => el.charAt(0).toUpperCase()).join('')
+
 
 console.log(toAcronym("Portable Network Graphics"));
