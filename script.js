@@ -433,3 +433,33 @@ const toAcronym = inp => inp.split(' ').map(el => el.charAt(0).toUpperCase()).jo
 
 
 console.log(toAcronym("Portable Network Graphics"));
+
+
+// const funcToPlay = () => {
+//   const newName = 'Frank';
+
+//   const newHuman = {
+//     firstName: newName
+//   }
+//   console.log(newHuman.firstName);
+// };
+
+// funcToPlay();
+
+// const options = ["Bell Pepper", "Sausage", "Pepperoni", "Pineapple"];
+
+// const seeToppings = (options) => {
+//   const
+// };
+
+// Return the day
+
+const whatday = (num) => { 
+  const days = ["Sunday", "Monday", "Tuesday"
+  , "Wednesday", "Thursday", "Friday", "Saturday"];
+  
+    return days[num-1] || "Wrong, please enter a number between 1 and 7";
+  };
+  
+  console.log(whatday(4));
+  
